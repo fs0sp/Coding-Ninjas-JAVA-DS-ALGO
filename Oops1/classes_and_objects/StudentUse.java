@@ -14,5 +14,7 @@ public class StudentUse {
         
         Student s2 = new Student("Manisha",121);
         s2.print();
+        // Number of students
+        System.out.println(Student.numStudents);
     }
 }
