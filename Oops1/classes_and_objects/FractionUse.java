@@ -2,7 +2,7 @@ package classes_and_objects;
 
 public class FractionUse {
 
-	public static void main(String[] args) {
+	public static void main (String[] args) throws ZeroDenominatorException {
 		Fraction f1 = new Fraction(20,30);
 		f1.print();
 		// 2/3
